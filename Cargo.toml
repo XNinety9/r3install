@@ -1,0 +1,8 @@
+[package]
+name = "r3install"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+indicatif = "0.17.11"
+sudo = "0.6.0"

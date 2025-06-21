@@ -1,0 +1,29 @@
+{
+  "install_build_tools": true,
+  "brew_packages": [
+    "git",
+    "wget",
+    "htop"
+  ],
+  "brew_casks": [
+    "google-chrome",
+    "visual-studio-code"
+  ],
+  "mas_apps": [
+    "497799835",  // Xcode
+    "1026581683"  // Slack
+  ],
+  "downloads": [
+    {
+      "source": "https://github.com/yourname/dotfiles.git",
+      "destination": "$HOME/.dotfiles",
+      "clone_repo": true
+    },
+    {
+      "source": "https://example.com/some-script.sh",
+      "destination": "/usr/local/bin/some-script.sh",
+      "clone_repo": false
+    }
+  ]
+}
+
